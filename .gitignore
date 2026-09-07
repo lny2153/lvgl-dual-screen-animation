@@ -1,0 +1,21 @@
+# Rebuildable desktop and ESP-IDF output
+build/
+step1/build/
+**/build/
+*.obj
+*.o
+*.exe
+*.ilk
+*.pdb
+*.log
+
+# Vendored LVGL source keeps its own history locally; this project tracks the source only.
+external/lvgl/.git/
+
+# Local editor and OS files
+.vs/
+.vscode/
+.idea/
+*.user
+Thumbs.db
+Desktop.ini

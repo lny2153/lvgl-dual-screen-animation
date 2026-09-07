@@ -1,0 +1,13 @@
+diff --git a/src/libs/gif/AnimatedGIF.h b/src/libs/gif/AnimatedGIF.h
+index 0922520..731391f 100644
+--- a/src/libs/gif/AnimatedGIF.h
++++ b/src/libs/gif/AnimatedGIF.h
+@@ -55,7 +55,7 @@
+ #define MAX_CODE_SIZE 12
+ 
+ #define MAX_COLORS 256
+-#define MAX_WIDTH 480
++#define MAX_WIDTH 648
+ #define LZW_BUF_SIZE (6*MAX_CHUNK_SIZE)
+ #define LZW_HIGHWATER (4*MAX_CHUNK_SIZE)
+ // This buffer is used to store the pixel sequence in reverse order

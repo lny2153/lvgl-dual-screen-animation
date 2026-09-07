@@ -1,0 +1,6 @@
+PASS
+LVGL 9.5.0 / real RGB565 partial flush / two independent displays
+Left 648x200; right 240x240; 32-line draw buffers = 56832 bytes
+Checks: all black pixels; full 1px borders; four corner colors; grid and center;
+left-only redraw leaves right unchanged; swapped/duplicate/null display rejection; flush bounds.
+Desktop-only validation. No ESP32 build, SPI transfer, panel initialization or hardware FPS claim.

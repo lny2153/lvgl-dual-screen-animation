@@ -1,0 +1,20 @@
+{
+  "left": {
+    "different_pixels_rgb565": 0,
+    "total_pixels": 129600,
+    "max_channel_delta": 0,
+    "difference_bbox": null
+  },
+  "right": {
+    "different_pixels_rgb565": 0,
+    "total_pixels": 57600,
+    "max_channel_delta": 0,
+    "difference_bbox": null
+  },
+  "food": {
+    "different_pixels_rgb565": 0,
+    "total_pixels": 129600,
+    "max_channel_delta": 0,
+    "difference_bbox": null
+  }
+}
